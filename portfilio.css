@@ -1,0 +1,292 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.fixed-top {
+    margin-bottom: 20px;
+}
+
+.wrap {
+    min-height: 100vh;
+    margin-bottom: 100px;
+}
+
+.wrap-skills {
+    position: relative;
+    min-height: 50vh;
+    margin-bottom: 100px;
+}
+
+nav a {
+    color: whitesmoke;
+}
+
+nav a:hover {
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+
+nav a .icons:hover {
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.resume {
+    background-color: cadetblue;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.nav-link img {
+    width: 40px;
+}
+
+.profile-introduce {
+    font-size: 110%;
+    margin-bottom: 30px;
+}
+
+.go-top {
+    color: black;
+    font-size: 110%;
+    font-weight: 400;
+}
+
+.go-top-1 {
+    color: whitesmoke;
+    font-size: 110%;
+    font-weight: 400;
+}
+
+.profile-container {
+    margin-top: 60px;
+}
+
+#myCarousel {
+    height: 65vh;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-weight: 400;
+    font-size: 110%;
+}
+
+.skill-container {
+    position: relative;
+    background-image: url("https://depechecode.io/wp-content/uploads/2017/12/web_design_desk2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: whitesmoke;
+    font-size: 110%;
+    
+}
+
+.skill-detail {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.profile-content-1 {
+    position: absolute;
+    bottom: 0px;
+    left: 160px;
+    width: 400px;
+    padding-top: 30px;
+    color: rgb(78, 75, 75);
+}
+
+.myprofile {
+    position: absolute;
+    top: 180px;
+}
+
+.profile-photo {
+    position: absolute;
+    right: 100px;
+    width: 500px;
+    height:  100vh;
+    background-size: 100%;
+    background-image: url(IMG_5740.PNG);
+    background-repeat: no-repeat;
+    z-index: -1
+}
+
+.profile-content-2 {
+    width: 60%;
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.profile-content-2-photo {
+    margin: 10px 10px 0 10px;
+    width: 33%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.profile-header {
+    padding: 0 20px;
+}
+
+.profile-content-3 {
+    width: 60%;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.project-1-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project1-box {
+    width: 70%;
+    height: 430px;
+    margin: 0 auto;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project1-detail {
+    margin-top: 20px;
+    width: 70%;
+}
+
+.wayferer {
+    color: black;
+    cursor: pointer;
+}
+
+.wayferer:hover {
+    text-decoration: none;
+    transform: scale(1.01);
+}
+
+.project-2-container {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project2-box {
+    background-image: url("project2.png");
+    background-size: 100%;
+    flex: 1;
+    height: 530px;
+}
+
+.project2-detail {
+    margin-left: 20px;
+    flex: 1;
+}
+
+.project-3-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project3-box {
+    width: 70%;
+    height: 430px;
+    background-image: url("project1.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project3-detail {
+    margin-top: 20px;
+    width: 70%;
+}
+
+.project-4-container {
+    width: 70%;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project4-box {
+    background-size: 100%;
+    flex: 1;
+    height: 480px;
+    border-radius: 10px;
+}
+
+.project4-detail {
+    margin-left: 20px;
+    flex: 1;
+}
+
+.fruits-farm {
+    color: black;
+}
+
+.fruits-farm:hover {
+    text-decoration: none;
+    transform: scale(1.01);
+}
+
+.contact-container {
+    background-image: url("http://www.glorycommunicate.com/img/intro-carousel/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 110%;
+    z-index: 4;
+    margin-bottom: 60px;
+}
+
+.contact-link {
+    color: whitesmoke;
+}
+
+.contact-link:hover {
+    text-decoration: none;
+}
+
+
+
