@@ -106,7 +106,7 @@ nav a .icons:hover {
 .profile-content-1 {
     position: absolute;
     bottom: 0px;
-    left: 50px;
+    left: 160px;
     width: 400px;
     padding-top: 30px;
     color: rgb(78, 75, 75);
@@ -117,12 +117,17 @@ nav a .icons:hover {
     top: 180px;
 }
 
+.introduce {
+    width: 60%;
+    margin: 0 auto;
+}
+
 .profile-photo {
     position: absolute;
-    right: 100px;
+    right: 130px;
     width: 500px;
     height:  100vh;
-    background-size: 100%;
+    background-size: 110%;
     background-image: url(jun-vector.png);
     background-repeat: no-repeat;
     z-index: -1
@@ -134,6 +139,7 @@ nav a .icons:hover {
     bottom: -20%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: rgb(78, 75, 75);
 }
 
 .profile-content-2-photo {
@@ -154,6 +160,7 @@ nav a .icons:hover {
     position: absolute;
     top: 50px;
     right: 50px;
+    color: rgb(78, 75, 75);
 }
 
 .carousel-control-prev-icon {
@@ -183,6 +190,7 @@ nav a .icons:hover {
 .project1-detail {
     margin-top: 20px;
     width: 70%;
+    color: rgb(78, 75, 75);
 }
 
 .wayferer {
@@ -214,6 +222,7 @@ nav a .icons:hover {
 .project2-detail {
     margin-left: 20px;
     flex: 1;
+    color: rgb(78, 75, 75);
 }
 
 .project-3-container {
@@ -235,6 +244,7 @@ nav a .icons:hover {
 .project3-detail {
     margin-top: 20px;
     width: 70%;
+    color: rgb(78, 75, 75);
 }
 
 .project-4-container {
@@ -256,6 +266,7 @@ nav a .icons:hover {
 .project4-detail {
     margin-left: 20px;
     flex: 1;
+    color: rgb(78, 75, 75);
 }
 
 .fruits-farm {
