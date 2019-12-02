@@ -106,7 +106,7 @@ nav a .icons:hover {
 .profile-content-1 {
     position: absolute;
     bottom: 0px;
-    left: 160px;
+    left: 50px;
     width: 400px;
     padding-top: 30px;
     color: rgb(78, 75, 75);
@@ -123,7 +123,7 @@ nav a .icons:hover {
     width: 500px;
     height:  100vh;
     background-size: 100%;
-    background-image: url(IMG_5740.PNG);
+    background-image: url(jun-vector.png);
     background-repeat: no-repeat;
     z-index: -1
 }
