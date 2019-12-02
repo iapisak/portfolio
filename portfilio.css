@@ -19,6 +19,12 @@ body {
     margin-bottom: 100px;
 }
 
+.navbar-brand {
+    font-family: 'Sacramento', cursive;
+    font-size: 250%;
+    /* color: yellowgreen; */
+}
+
 nav a {
     color: whitesmoke;
 }
@@ -32,6 +38,11 @@ nav a .icons:hover {
     background-color: whitesmoke;
     padding: 5px;
     border-radius: 5px;
+}
+
+.about-me {
+    font-family: 'Sacramento', cursive;
+    font-weight: 500;
 }
 
 .resume {
@@ -136,7 +147,7 @@ nav a .icons:hover {
 .profile-content-2 {
     width: 60%;
     position: absolute;
-    bottom: -20%;
+    bottom: 0;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(78, 75, 75);
